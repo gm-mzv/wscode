@@ -1,0 +1,219 @@
+# showcase
+showcase:
+  enable: true
+  title: "Herzlich Willkommen"
+  subtitle: "<br />  Jesus Christus spricht:"
+  description: "Ich bin der Weg die Wahrheit und das Leben. Niemand kommt zum Vater als nur durch mich."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/radity/"
+
+    - icon: "github"
+      URL: "https://github.com/radity"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/radity"
+
+    - icon: "dribbble"
+      URL: "https://dribbble.com/radity"
+
+    - icon: "behance"
+      URL: "https://www.behance.net/radity-digital"
+
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/teamradity/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/raditycom/"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Über uns"
+  content: '<p class="lead">
+   Wir sind eine kleine Evangeliums-Christen-Baptisten-Gemeinde im westlichen Süden Sauerlands. 
+    Die Grundlage unseres christlichen Glaubens ist die Bibel, das Wort Gottes. 
+    Jesus Christus real zu erleben, seinem Leben nachzuahmen und ihm bald leibhaftig zu begegnen ist das Ziel unserer 
+    Gemeinschaften und unsere gläubige Hoffnung. 
+    Wir glauben, dass Gott möchte, dass ALLE Menschen gerettet werden, was nur durch den Glauben dan Jesus Christus möglich ist. 
+    Deshalb laden wir dich herzlich zu unseren Gottesdiensten ein. 
+    Diese finden regelmäßig an folgenden Terminen statt:
+    </p>'
+
+  image:
+    x: "img/who-am-i/123.png"
+
+# education
+education:
+  enable: true
+  title: "Gottesdienste"
+  items:
+    - university: "10:00 Uhr"
+      year: "Sonntag"
+      degree: "Feierlicher Gottesdienst"
+
+    - university: "19:00 Uhr"
+      year: "Freitag"
+      degree: "Bibelstudium & Gebet"
+
+    - university: "16:00 Uhr"
+      year: ""
+      degree: "Gottesdiest in russischer Sprache"
+    
+    
+
+# experience
+experience:
+  enable: true
+  title: "Weitere Veranstaltungen"
+  description: "Unter der Woche finden alle möglichen Personenkreise in unserer Gemeinde auch anderer geistliche Gemeinschaften statt. "
+
+  items:
+    - title: "Jugendstunde"
+      company: "Radity"
+      duration: "Mittwoch 20:00 Uhr"
+
+    - title: "Teenagerkreis"
+      company: "Textic"
+      duration: "Dienstag 19:00 Uhr"
+
+    - title: "Kinderstunde"
+      company: "Cyberse"
+      duration: "Dienstag 18:00 Uhr"
+
+# Client & Work
+client_and_work:
+  title: "Unserer Glaubensbekenntnis"
+  enable: true
+
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+  works:
+    - title: "Die Dreieinigkeit"
+      description: "Wir glauben an den ewigen, allmächtigen, dreieinigen Gott."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      is_even: false
+
+    - title: "Die Bibel ist Gottes Wort"
+      description: "Wir glauben an die absolute, von Gott inspirierte Heilige Schrift - die Bibel."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      is_even: false
+
+    - title: "Gott  ist der Schöpfer"
+      description: "Wir glauben, dass die ganze Welt von dem allmächtigen und ewigen Gott geschaffen wurde."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      # image:
+      #   x: "img/works/robo-advisor.jpg"
+      #   _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Ansprechpartner"
+  items:
+    - name: "Andreas Klassen"
+      position: "Gemeindeleitung"
+      content: "Mobil-Telefon: +4915789283645"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Andreas Dorn"
+      position: "Lehrer"
+      content: "Mobil-Telefon: +4915789283645"      
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Tom Pankratz"
+      position: "Gemeindeleitung"
+      content: "Mobil-Telefon: +4915789283645"            
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Kontakt"
+  form:
+    action: "#"
+    full_name: "Name"
+    email: "Email-Adresse"
+    message: "Schreib uns eine Nachricht"
+  email:
+    title: "E-Mail"
+    email: '<a href="mailto:hildegardklassen@gmail.com">team@gmmzv.com</a>'
+  address:
+    title: "Adresse"
+    address: "EChB Gemeinde gBR<br />Hösinghausen 2a<br />58540 Meinerzhagen"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Sende E-Mail"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Bleibe informiert!"
+  success_message: "Erfolgreich abonniert."
+  error_message: "Fehler beim Abonnieren."
+  note: "Wir teilen deine E-Mail-Adresse mit keinem."
