@@ -138,32 +138,43 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
-    - title: "Die Dreieinigkeit"
-      description: "Wir glauben an den ewigen, allmächtigen, dreieinigen Gott."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      is_even: false
+    - title: "Die Dreieinigkeit Gottes"
+      description: "Wir glauben an den ewigen, allmächtigen, dreieinigen Gott. (1.Johannes 5, 7; Matthäus 28, 19)
+                <br />- Gott der Vater (1. Korinther 8, 6)
+                <br />- Gott der Sohn (1. Johannes 5, 20)
+                <br />- Gott der Heilige Geist (Apostelgeschichte 5, 3-4)"              
+      is_even: true 
 
     - title: "Die Bibel ist Gottes Wort"
-      description: "Wir glauben an die absolute, von Gott inspirierte Heilige Schrift - die Bibel."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+      description: "Wir glauben an die absolute, von Gott inspirierte Heilige Schrift - die Bibel. (2. Timotheus 3, 16)"
       is_even: false
+      
 
-    - title: "Gott  ist der Schöpfer"
+    - title: "Gott ist der Schöpfer"
       description: "Wir glauben, dass die ganze Welt von dem allmächtigen und ewigen Gott geschaffen wurde."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      # image:
-      #   x: "img/works/robo-advisor.jpg"
-      #   _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true 
+    
+    - title: "Alle Menschen sind Sünder"
+      description: "Wir glauben, dass alle Menschen Sünder sind und eine Errettung brauchen. (Römer 5, 12)"
+      is_even: false 
+    
+    - title: "Rettung ist nur in Christus"
+      description: "Wir glauben, dass für die Errettung aller Menschen Jesus Christus gestorben und auferstanden ist. Er ist der einzige Retter der Welt. (Johannes 4, 42; Apostelgeschichte 4, 12; 2. Korinther 5, 15)"
+      is_even: true 
+    
+    - title: "Durch Gottes Gnade und Glauben"
+      description: "Wir glauben, dass der Mensch nur durch die Gnade Gottes, durch die Bekehrung und persönlichen Glauben an den Herrn Jesus Christus errettet wird. (Epheser 2, 8)"
+      is_even: false 
+
+    - title: "Die Gemeinde Christi"
+      description: "Wir glauben, dass die Gemeinde Jesu Christi aus von Gott vergebenen und vom Heiligen Geist wiedergeborenen Menschen besteht. (Epheser 5, 30-32; 1. Korinther 12, 13)"
+      is_even: true
+    
+    - title: "Auferstehung zum Leben oder Tod"
+      description: "Wir glauben, dass alle Menschen auferstehen werden - die Ungerechten (Ungläubigen) für die ewige Verdammnis mit dem Teufel, die Gerechten zum ewigen Leben mit Gott. 
+(Johannes 5, 28-29)"
       is_even: false
+    
 
 # testimonial
 testimonial:
@@ -181,8 +192,8 @@ testimonial:
       position: "Lehrer"
       content: "Mobil-Telefon: +4915789283645"      
       image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+        x: "img/testimonials/andreas-dorn.jpg"
+        _2x: "img/testimonials/andreas-dorn@2x.jpg"
 
     - name: "Tom Pankratz"
       position: "Gemeindeleitung"

@@ -5,10 +5,7 @@
         <div class="row row--padded mb-0 rad-fade-down">
             {{ range .Site.Data.homepage.testimonial.items }}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
-                <i class="icon-quote"></i>
-                <p>
-                    {{ .content }}
-                </p>
+               
                 <div class="testimonial__author">
                     <img class="lozad testimonial__author-image"
                          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -17,9 +14,14 @@
                          alt="{{ .name }}"/>
                     <div class="testimonial__author-info">
                         <h4>{{ .name }}</h4>
-                        <span>{{ .position }}</span>
+                        <span style="color:burlywood">{{ .position }}</span>
                     </div>
                 </div>
+                <p>
+                    <p>
+                    </p>
+                    {{ .content }}
+                </p>
             </div>
             {{ end }}
         </div>
