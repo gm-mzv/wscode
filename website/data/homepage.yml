@@ -4,47 +4,6 @@ showcase:
   title: "Herzlich Willkommen"
   subtitle: "<br />  Jesus Christus spricht:"
   description: "Ich bin der Weg die Wahrheit und das Leben. Niemand kommt zum Vater als nur durch mich."
-  image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
-  imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
-
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
-
-  socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
-
-    - icon: "github"
-      URL: "https://github.com/radity"
-
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
-
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
-
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
-
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
-
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
-
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
-
-    - icon: "codepen"
-      URL: "#"
-
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
 
 # about
 about:
@@ -61,7 +20,7 @@ about:
     </p>'
 
   image:
-    x: "img/who-am-i/123.png"
+    x: "img/testimonials/schluessel.jpg"
 
 # education
 education:
@@ -138,39 +97,39 @@ client_and_work:
   #     alt: "Ztos"
 
   works:
-    - title: "Die Dreieinigkeit Gottes"
+    - title: "1. Die Dreieinigkeit Gottes"
       description: "Wir glauben an den ewigen, allmächtigen, dreieinigen Gott. (1.Johannes 5, 7; Matthäus 28, 19)
                 <br />- Gott der Vater (1. Korinther 8, 6)
                 <br />- Gott der Sohn (1. Johannes 5, 20)
                 <br />- Gott der Heilige Geist (Apostelgeschichte 5, 3-4)"              
       is_even: true 
 
-    - title: "Die Bibel ist Gottes Wort"
+    - title: "2. Die Bibel ist Gottes Wort"
       description: "Wir glauben an die absolute, von Gott inspirierte Heilige Schrift - die Bibel. (2. Timotheus 3, 16)"
       is_even: false
       
 
-    - title: "Gott ist der Schöpfer"
+    - title: "3. Gott ist der Schöpfer"
       description: "Wir glauben, dass die ganze Welt von dem allmächtigen und ewigen Gott geschaffen wurde."
       is_even: true 
     
-    - title: "Alle Menschen sind Sünder"
+    - title: "4. Alle Menschen sind Sünder"
       description: "Wir glauben, dass alle Menschen Sünder sind und eine Errettung brauchen. (Römer 5, 12)"
       is_even: false 
     
-    - title: "Rettung ist nur in Christus"
+    - title: "5. Rettung ist nur in Christus"
       description: "Wir glauben, dass für die Errettung aller Menschen Jesus Christus gestorben und auferstanden ist. Er ist der einzige Retter der Welt. (Johannes 4, 42; Apostelgeschichte 4, 12; 2. Korinther 5, 15)"
       is_even: true 
     
-    - title: "Durch Gottes Gnade und Glauben"
+    - title: "6. Durch Gottes Gnade und Glauben"
       description: "Wir glauben, dass der Mensch nur durch die Gnade Gottes, durch die Bekehrung und persönlichen Glauben an den Herrn Jesus Christus errettet wird. (Epheser 2, 8)"
       is_even: false 
 
-    - title: "Die Gemeinde Christi"
+    - title: "7. Die Gemeinde Christi"
       description: "Wir glauben, dass die Gemeinde Jesu Christi aus von Gott vergebenen und vom Heiligen Geist wiedergeborenen Menschen besteht. (Epheser 5, 30-32; 1. Korinther 12, 13)"
       is_even: true
     
-    - title: "Auferstehung zum Leben oder Tod"
+    - title: "8. Auferstehung zum Leben oder Tod"
       description: "Wir glauben, dass alle Menschen auferstehen werden - die Ungerechten (Ungläubigen) für die ewige Verdammnis mit dem Teufel, die Gerechten zum ewigen Leben mit Gott. 
 (Johannes 5, 28-29)"
       is_even: false
@@ -183,24 +142,24 @@ testimonial:
   items:
     - name: "Andreas Klassen"
       position: "Gemeindeleitung"
-      content: "Mobil-Telefon: +4915789283645"
+      content: "Mobil-Telefon: +491708162855"
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/testimonials/andreas-klassen.jpg"
+        _2x: "img/testimonials/andreas-klassen@2x.jpg"
 
     - name: "Andreas Dorn"
       position: "Lehrer"
-      content: "Mobil-Telefon: +4915789283645"      
+      content: "Mobil-Telefon: +4915253818382"      
       image:
-        x: "img/testimonials/andreas-dorn.jpg"
-        _2x: "img/testimonials/andreas-dorn@2x.jpg"
+        x: "img/testimonials/andreas-dorn1.jpg"
+        _2x: "img/testimonials/andreas-dorn1@2x.jpg"
 
     - name: "Tom Pankratz"
       position: "Gemeindeleitung"
-      content: "Mobil-Telefon: +4915789283645"            
+      content: "Mobil-Telefon: +4915785766934"            
       image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+        x: "img/testimonials/tom-pankratz.jpg"
+        _2x: "img/testimonials/tom-pankratz@2x.jpg"
 
 # contact
 contact:

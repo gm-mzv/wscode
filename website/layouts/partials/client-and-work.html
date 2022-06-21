@@ -9,12 +9,12 @@
         <div class="clients">
           {{ range .Site.Data.homepage.client_and_work.clients }}
           <div class="clients__item">
-            <a href="https://radity.com">
+            <a>
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x | absURL }}"
-                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                data-src="{{ .logo.x   }}"
+                data-srcset="{{ .logo.x   }} 1x, {{ .logo._2x  }} 2x"
                 alt="{{ .alt }}"
               />
             </a>
