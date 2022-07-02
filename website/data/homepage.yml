@@ -121,21 +121,21 @@ testimonial:
       image:
         x: "img/testimonials/andreas-klassen@2x.jpg"
         _2x: "img/testimonials/andreas-klassen@2x.jpg"
-      position: "Mobil: +4915789565690"
+      position: "Mobil: +491578956569"
 
     - name: "Andreas Dorn"
       image:
         x: "img/testimonials/andreas-dorn@2x.jpg"
         _2x: "img/testimonials/andreas-dorn@2x.jpg"
-      position: "Mobil: +4915789565690"
+      position: "Mobil: +491578956569"
 
     - name: "Tom Pankratz"       
       image:
         x: "img/testimonials/tom-pankratz@2x.jpg"
         _2x: "img/testimonials/tom-pankratz@2x.jpg"
-      position: "Mobil: +4915789565690"
+      position: "Mobil: +491578956569"
 
-# education
+# adresse
 adresse:
   enable: true
   title: "Kontakt"
@@ -143,7 +143,7 @@ adresse:
     - university: "EChB Gemeinde<br />Hösinghausen 2a<br />58540 Meinerzhagen"
       year: "Adresse"
       degree: ""
-    - university: "team@gmmzv.com"
+    - university: "info@christen-meinerzhagen.de"
       year: "E-Mail"
       degree: ""
 

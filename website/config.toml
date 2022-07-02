@@ -42,7 +42,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Kontakt"
-  URL = "#contact"
+  URL = "#adresse"
   weight = 4
 
 
