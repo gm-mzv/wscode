@@ -1,27 +1,24 @@
 <header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="https://gm-mzv.github.io/website/">
-        <span style="color:#806C61">{{ .Site.Params.logo.text1 }}</span>
-        <span>{{ .Site.Params.logo.text2 }}</span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent, #header"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
+      <style>
+      .logosize {width: 50%;}
+        </style>
+     <div class="row">
+        <div>
+          <a class="navbar-brand">
+            <span style="color: #aecdf6">{{ .Site.Params.logo.text1 }}</span>
+            <span>{{ .Site.Params.logo.text2 }}</span>
+          </a>
+        </div> 
+         <div>
+          <img class="logosize" src="img/general/logo.jpg"  alt="Gemeindehaus"/> 
+         </div>  
+      </div> 
+      
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="https://gm-mzv.github.io/website/">HOME</a>
-          </li>
           {{ range .Site.Menus.header }}
           <li class="nav-item">
             <a data-scroll class="nav-link" href="{{ .URL }}"
@@ -34,3 +31,4 @@
     </nav>
   </div>
 </header>
+

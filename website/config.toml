@@ -26,6 +26,11 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
+  name = "HOME"
+  URL = ""
+  weight = 2
+
+  [[menu.header]]
   name = "Über uns"
   URL = "#about"
   weight = 2
@@ -59,7 +64,7 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education","education2", "experience", "client-and-work", "testimonial", "contact", "adresse"]
 
 
   [params.logo]

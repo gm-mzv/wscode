@@ -14,9 +14,9 @@ about:
     Die Grundlage unseres christlichen Glaubens ist die Bibel, das Wort Gottes. 
     Jesus Christus real zu erleben, seinem Leben nachzuahmen und ihm bald leibhaftig zu begegnen ist das Ziel unserer 
     Gemeinschaften und unsere gläubige Hoffnung. 
-    Wir glauben, dass Gott möchte, dass ALLE Menschen gerettet werden, was nur durch den Glauben dan Jesus Christus möglich ist. 
-    Deshalb laden wir dich herzlich zu unseren Gottesdiensten ein. 
-    Diese finden regelmäßig an folgenden Terminen statt:
+    Wir glauben, dass Gott möchte, dass <i>alle</i> Menschen gerettet werden, was nur durch den Glauben an den 
+    Sohn Gottes Jesus Christus möglich ist. Die Bibel sagt: "Der Glaube kommt aus der Predigt" (Römer 10, 17).
+    Deshalb laden wir herzlich zu unseren Gottesdiensten ein. 
     </p>'
 
   image:
@@ -27,74 +27,40 @@ education:
   enable: true
   title: "Gottesdienste"
   items:
-    - university: "10:00 Uhr"
-      year: "Sonntag"
-      degree: "Feierlicher Gottesdienst"
+    - university: "Sonntag"
+      year: "Feierlicher Gottesdienst"
+      degree: "10:00 Uhr"
 
-    - university: "19:00 Uhr"
-      year: "Freitag"
-      degree: "Bibelstudium & Gebet"
+    - university: "Sonntag"
+      year: "Gottesdiest in russischer Sprache"
+      degree: "16:00 Uhr"
 
-    - university: "16:00 Uhr"
-      year: ""
-      degree: "Gottesdiest in russischer Sprache"
-    
-    
+    - university: "Freitag"
+      year: "Bibelstudium & Gebet"
+      degree: "19:00 Uhr"
 
-# experience
-experience:
+# education
+education2:
   enable: true
-  title: "Weitere Veranstaltungen"
-  description: "Unter der Woche finden alle möglichen Personenkreise in unserer Gemeinde auch anderer geistliche Gemeinschaften statt. "
-
+  title: "Veranstalungen in der Woche"
   items:
-    - title: "Jugendstunde"
-      company: "Radity"
-      duration: "Mittwoch 20:00 Uhr"
+    - university: "Mittwoch"
+      year: "Jugendstunde"
+      degree: "20:00 Uhr"
 
-    - title: "Teenagerkreis"
-      company: "Textic"
-      duration: "Dienstag 19:00 Uhr"
+    - university: "Dienstag"
+      year: "Jungscharstunde"
+      degree: "19:00 uhr"
 
-    - title: "Kinderstunde"
-      company: "Cyberse"
-      duration: "Dienstag 18:00 Uhr"
+    - university: "Dienstag"
+      year: "Kinderstunde"
+      degree: "18:00 Uhr"
+  
 
 # Client & Work
 client_and_work:
-  title: "Unserer Glaubensbekenntnis"
+  title: "Unser Glaubensbekenntnis"
   enable: true
-
-  # clients:
-  #   - logo:
-  #       x: "img/clients/asgardia.png"
-  #       _2x: "img/clients/asgardia@2x.png"
-  #     alt: "Asgardia"
-
-  #   - logo:
-  #       x: "img/clients/earth-2.png"
-  #       _2x: "img/clients/earth-2@2x.png"
-  #     alt: "Earth 2.0"
-
-  #   - logo:
-  #       x: "img/clients/goldline.png"
-  #       _2x: "img/clients/goldline@2x.png"
-  #     alt: "Goldline"
-
-  #   - logo:
-  #       x: "img/clients/kanba.png"
-  #       _2x: "img/clients/kanba@2x.png"
-  #     alt: "Kanba"
-
-  #   - logo:
-  #       x: "img/clients/zoo-tv.png"
-  #       _2x: "img/clients/zoo-tv@2x.png"
-  #     alt: "Zoo"
-
-  #   - logo:
-  #       x: "img/clients/ztos.png"
-  #       _2x: "img/clients/ztos@2x.png"
-  #     alt: "Ztos"
 
   works:
     - title: "1. Die Dreieinigkeit Gottes"
@@ -129,61 +95,58 @@ client_and_work:
       description: "Wir glauben, dass die Gemeinde Jesu Christi aus von Gott vergebenen und vom Heiligen Geist wiedergeborenen Menschen besteht. (Epheser 5, 30-32; 1. Korinther 12, 13)"
       is_even: true
     
-    - title: "8. Auferstehung zum Leben oder Tod"
+    - title: "8. Auferstehung aller Menschen"
       description: "Wir glauben, dass alle Menschen auferstehen werden - die Ungerechten (Ungläubigen) für die ewige Verdammnis mit dem Teufel, die Gerechten zum ewigen Leben mit Gott. 
 (Johannes 5, 28-29)"
       is_even: false
     
 
-# testimonial
+# # contact
+# contact:
+#   enable: true
+#   title: "Kontakt"
+  
+#   email:
+#     title: "E-Mail"
+#     email: '<a href="mailto:hildegardklassen@gmail.com">team@gmmzv.com</a>'
+#   address:
+#     title: "Adresse"
+#     address: "EChB Gemeinde gBR<br />Hösinghausen 2a<br />58540 Meinerzhagen"
+
 testimonial:
   enable: true
   title: "Ansprechpartner"
   items:
     - name: "Andreas Klassen"
-      position: "Gemeindeleitung"
-      content: "Mobil-Telefon: +491708162855"
       image:
-        x: "img/testimonials/andreas-klassen.jpg"
+        x: "img/testimonials/andreas-klassen@2x.jpg"
         _2x: "img/testimonials/andreas-klassen@2x.jpg"
+      position: "Mobil: +4915789565690"
 
     - name: "Andreas Dorn"
-      position: "Lehrer"
-      content: "Mobil-Telefon: +4915253818382"      
       image:
-        x: "img/testimonials/andreas-dorn1.jpg"
-        _2x: "img/testimonials/andreas-dorn1@2x.jpg"
+        x: "img/testimonials/andreas-dorn@2x.jpg"
+        _2x: "img/testimonials/andreas-dorn@2x.jpg"
+      position: "Mobil: +4915789565690"
 
-    - name: "Tom Pankratz"
-      position: "Gemeindeleitung"
-      content: "Mobil-Telefon: +4915785766934"            
+    - name: "Tom Pankratz"       
       image:
-        x: "img/testimonials/tom-pankratz.jpg"
+        x: "img/testimonials/tom-pankratz@2x.jpg"
         _2x: "img/testimonials/tom-pankratz@2x.jpg"
+      position: "Mobil: +4915789565690"
 
-# contact
-contact:
+# education
+adresse:
   enable: true
   title: "Kontakt"
-  form:
-    action: "#"
-    full_name: "Name"
-    email: "Email-Adresse"
-    message: "Schreib uns eine Nachricht"
-  email:
-    title: "E-Mail"
-    email: '<a href="mailto:hildegardklassen@gmail.com">team@gmmzv.com</a>'
-  address:
-    title: "Adresse"
-    address: "EChB Gemeinde gBR<br />Hösinghausen 2a<br />58540 Meinerzhagen"
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Sende E-Mail"
+  items:
+    - university: "EChB Gemeinde<br />Hösinghausen 2a<br />58540 Meinerzhagen"
+      year: "Adresse"
+      degree: ""
+    - university: "team@gmmzv.com"
+      year: "E-Mail"
+      degree: ""
 
-# newsletter
-newsletter:
-  enable: false
-  title: "Bleibe informiert!"
-  success_message: "Erfolgreich abonniert."
-  error_message: "Fehler beim Abonnieren."
-  note: "Wir teilen deine E-Mail-Adresse mit keinem."
+    
+
+
